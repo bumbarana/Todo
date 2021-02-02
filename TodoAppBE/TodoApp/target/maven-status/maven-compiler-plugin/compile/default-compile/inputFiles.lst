@@ -1,0 +1,14 @@
+/Users/anamaria/Documents/Computer Science/master/soa/MyApp/TodoAppBE/TodoApp/src/main/java/com/soa/TodoApp/repository/TodoJpaRepository.java
+/Users/anamaria/Documents/Computer Science/master/soa/MyApp/TodoAppBE/TodoApp/src/main/java/com/soa/TodoApp/security/JwtAuthenticationFilter.java
+/Users/anamaria/Documents/Computer Science/master/soa/MyApp/TodoAppBE/TodoApp/src/main/java/com/soa/TodoApp/repository/TodoRepository.java
+/Users/anamaria/Documents/Computer Science/master/soa/MyApp/TodoAppBE/TodoApp/src/main/java/com/soa/TodoApp/TodoApplication.java
+/Users/anamaria/Documents/Computer Science/master/soa/MyApp/TodoAppBE/TodoApp/src/main/java/com/soa/TodoApp/config/WebSecurityConfig.java
+/Users/anamaria/Documents/Computer Science/master/soa/MyApp/TodoAppBE/TodoApp/src/main/java/com/soa/TodoApp/dto/TodoDto.java
+/Users/anamaria/Documents/Computer Science/master/soa/MyApp/TodoAppBE/TodoApp/src/main/java/com/soa/TodoApp/security/JwtTokenProvider.java
+/Users/anamaria/Documents/Computer Science/master/soa/MyApp/TodoAppBE/TodoApp/src/main/java/com/soa/TodoApp/entity/TodoEntity.java
+/Users/anamaria/Documents/Computer Science/master/soa/MyApp/TodoAppBE/TodoApp/src/main/java/com/soa/TodoApp/service/TodoService.java
+/Users/anamaria/Documents/Computer Science/master/soa/MyApp/TodoAppBE/TodoApp/src/main/java/com/soa/TodoApp/config/CustomAuthenticationProvider.java
+/Users/anamaria/Documents/Computer Science/master/soa/MyApp/TodoAppBE/TodoApp/src/main/java/com/soa/TodoApp/controller/TodoController.java
+/Users/anamaria/Documents/Computer Science/master/soa/MyApp/TodoAppBE/TodoApp/src/main/java/com/soa/TodoApp/helpers/mapper/TodoMapper.java
+/Users/anamaria/Documents/Computer Science/master/soa/MyApp/TodoAppBE/TodoApp/src/main/java/com/soa/TodoApp/helpers/constants/EndpointConstants.java
+/Users/anamaria/Documents/Computer Science/master/soa/MyApp/TodoAppBE/TodoApp/src/main/java/com/soa/TodoApp/security/JwtContext.java

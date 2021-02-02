@@ -1,0 +1,116 @@
+
+  
+  .label{
+    margin-left: -100px;
+    // text-decoration: underline;
+    margin-top: 1%;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 25px;
+  }
+  
+  .bigContainer{
+    position: fixed;
+    top: 45%;
+    //background-color: white;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    width:40%;
+    height:80%;
+    border-radius: 3px;
+  
+  }
+  
+
+  
+  mat-form-field {
+    width: 100%;
+    height: 100px;
+  }
+  
+  .bigBigContainer{
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:40%;
+    height:65%;
+    border-radius: 3px;
+
+    background-color: rgba(26, 99, 121, 0.5);
+  }
+  
+
+  
+  .register-button {
+  
+    font-size: 12px;
+    color: #fff;
+    //line-height: 1.2;
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    height: 50px;
+    background-color: #4d6163;
+    border-radius: 8px;
+    cursor: pointer;
+    
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+ //   margin-left: 400px;
+    margin-top: 10px;
+  }
+  
+  .login100-form-btn:hover {
+      background-color: #4d6163d0;
+  }
+  
+  .body{
+    position:fixed;
+    margin:0;
+    padding:0;
+    border:0;
+    width:100%;
+    height:100%;
+    //background-image: url("i3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .err{
+    font-size:20px;
+    color:red;
+  }
+  
+  input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color:transparent !important;
+    width: 300px !important;
+  }
+  
+  .leftCol{
+    display:block;
+    width: 300px !important;
+
+    // margin-right: 100px;
+    // margin-top: 10px;
+    //width:0px;
+    height:0px;
+    
+  }
+  
+  .rightCol{
+      display:block;
+      margin-left: 250px;
+  }
+  
+  

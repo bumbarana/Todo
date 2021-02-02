@@ -1,0 +1,33 @@
+<div class="body">
+<div class="bigBigContainer">
+  <div class="bigContainer">
+
+    <div class = "label">REGISTER</div>
+
+    <div class="register-container" [formGroup]="userForm">
+      <div class = "leftCol">
+          <mat-form-field>
+            <input matInput formControlName="firstname" placeholder="First Name" required>
+          </mat-form-field>
+          <mat-form-field>
+            <input matInput formControlName="lastname" placeholder="Last Name" required>
+          </mat-form-field>
+          <mat-form-field>
+            <input matInput formControlName="email" placeholder="Email" required >
+          </mat-form-field>
+
+          <mat-form-field>
+            <input matInput formControlName="password" placeholder="Password" type="password" required>
+          </mat-form-field>
+
+
+      <button type="submit" (click)="register()" [disabled]="!userForm.valid" mat-flat-button class="register-button">
+        Submit
+      </button>
+    </div>
+    </div> 
+
+    
+</div>
+</div>
+</div>

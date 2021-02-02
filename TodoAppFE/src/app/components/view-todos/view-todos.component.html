@@ -1,0 +1,37 @@
+
+<div class ="body">
+  <div class="title">
+  <h1 >Todos:</h1>
+  <div style="display:block; float: left; margin-left: 10px;">
+    <button mat-button (click)="addTodo()">Add Todo</button>
+    <br>
+    <button mat-button (click)="logout()">Logout</button>
+</div>
+</div>
+    <div class="cardList">
+      
+        <ng-container *ngFor="let todo of this.todos">
+        
+          <mat-card class="card" >
+            <div class="eventTitle">
+          <mat-card-title class = "title">
+            <span>{{todo.subject}}</span>
+          </mat-card-title>
+          <mat-card-subtitle >
+            <span>Priority: {{todo.priority}}</span>
+          </mat-card-subtitle>
+            <mat-card-content class="content" flex>
+                <p>
+                  <b>Details:</b>
+                
+                  {{todo.description}}
+                </p>
+              </mat-card-content>
+            </div>
+            <button mat-button (click)="deleteTodo(todo)">DELETE</button>
+      </mat-card>
+      
+        </ng-container>
+       
+      </div>
+    </div> 

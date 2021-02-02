@@ -1,0 +1,47 @@
+<!-- <app-header></app-header> -->
+
+<div class="body">
+  <div class="bigBigContainer">
+    <!-- <div class="logoApp">
+      <img class="logoApp" src="assets/icons/onlineschool.png" alt="OnlineSchool_Logo" >
+    </div> -->
+
+    <div class="bigContainer">
+ 
+      <h1>LOGIN</h1>
+
+      <div class="containerLogin">
+
+        <div *ngIf="error" class="err">User or password are invalid! </div>
+        <div class="form-field-container">
+          <mat-form-field appearance="fill" class="form-field">
+            <mat-label>Email</mat-label>
+            <input [(ngModel)]= "email" id="email" name="email" matInput >
+            <mat-hint></mat-hint>
+          </mat-form-field>
+        </div>
+        <div class="form-field-container">
+          <mat-form-field appearance="fill"   class="form-field">
+            <mat-label>Password</mat-label>
+            <input [(ngModel)]="password" type="password"  id="password" name="password" matInput >
+            <mat-hint></mat-hint>
+          </mat-form-field>
+        </div>
+        <br>
+
+        <button href="/home" (click)="logIn()" mat-flat-button class="login100-form-btn">
+          Log In
+        </button>
+
+      </div>
+
+
+      <!-- <span class="signup">
+        <a  (click)=goToRegister()>Sign up here </a>
+    </span> -->
+    </div>
+
+    
+  </div>
+
+</div> <!--  body container-->

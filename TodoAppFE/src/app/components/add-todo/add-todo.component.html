@@ -1,0 +1,34 @@
+<div class="body">
+  <div class="bigBigContainer">
+    <div class="bigContainer">
+  
+      <div class = "label">Add Todo</div>
+  
+      <div class="register-container" [formGroup]="todoForm">
+        <div class = "leftCol">
+            <mat-form-field>
+              <input matInput formControlName="subject" placeholder="Title" required>
+            </mat-form-field>
+            <mat-form-field style.fontSize="12px"  class="textbox" >
+                <mat-label>Description</mat-label>
+                <textarea matInput formControlName="description" required
+                          cdkTextareaAutosize
+                          #autosize="cdkTextareaAutosize"
+                          cdkAutosizeMinRows="1"
+                          cdkAutosizeMaxRows="3"></textarea>
+            </mat-form-field>
+            <mat-form-field>
+              <input matInput formControlName="priority" placeholder="Priority" required >
+            </mat-form-field>
+  
+  
+        <button type="submit" (click)="add()" [disabled]="!todoForm.valid" mat-flat-button class="register-button">
+          Add
+        </button>
+      </div>
+      </div> 
+  
+      
+  </div>
+  </div>
+  </div>

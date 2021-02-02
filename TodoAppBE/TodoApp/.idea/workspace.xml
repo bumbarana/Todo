@@ -1,0 +1,1300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4dd8eb76-51f7-4a34-951b-0fc7fc3e7101" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../login/src/main/java/com/soa/login/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login/src/main/java/com/soa/login/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login/src/main/java/com/soa/login/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/OnlineSchoolApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/config/CustomAuthenticationProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/config/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/controller/EnrollmentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/controller/LectureController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/controller/QuizController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/controller/SubjectController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/dto/AnswerDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/dto/CategoryDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/dto/ChoiceDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/dto/EnrollmentDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/dto/GradeDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/dto/LectureDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/dto/QuestionDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/dto/QuizDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/dto/StudentAnswerDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/dto/SubjectDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/entity/AnswerEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/entity/CategoryEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/entity/ChoiceEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/entity/EnrollmentEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/entity/GradeEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/entity/LectureEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/entity/QuestionEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/entity/QuizEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/entity/StudentAnswerEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/entity/SubjectEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/helpers/constants/EndpointConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/helpers/mapper/AnswerMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/helpers/mapper/CategoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/helpers/mapper/ChoiceMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/helpers/mapper/EnrollmentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/helpers/mapper/GradeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/helpers/mapper/LectureMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/helpers/mapper/QuestionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/helpers/mapper/QuizMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/helpers/mapper/StudentAnswerMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/helpers/mapper/SubjectMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/repository/AnswerJpaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/repository/AnswerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/repository/CategoryJpaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/repository/CategoryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/repository/EnrollmentJpaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/repository/EnrollmentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/repository/GradeJpaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/repository/GradeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/repository/LectureJpaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/repository/LectureRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/repository/QuestionJpaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/repository/QuestionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/repository/QuizJpaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/repository/QuizRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/repository/StudentAnswerJpaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/repository/StudentAnswerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/repository/SubjectJpaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/repository/SubjectRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/security/JwtAuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/security/JwtContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/security/JwtTokenProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/service/LectureService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/service/SubjectService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/resources/db/liquibase-changelog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/test/java/com/licenta/OnlineSchool/OnlineSchoolApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/LoginApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../login/src/main/java/com/soa/login/LoginApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/config/AuthenticationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../login/src/main/java/com/soa/login/config/AuthenticationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/config/CustomAuthenticationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/../login/src/main/java/com/soa/login/config/CustomAuthenticationProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../login/src/main/java/com/soa/login/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/dto/AddressDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/dto/InterestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/dto/StudentDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/dto/StudyDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/dto/TeacherDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/dto/TitleDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/entity/AddressEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/entity/InterestEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/entity/StudentEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/entity/StudyEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/entity/TeacherEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/entity/TitleEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/helpers/constants/EndpointConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../login/src/main/java/com/soa/login/helpers/constants/EndpointConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/helpers/mapper/AddressMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/helpers/mapper/InterestMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/helpers/mapper/StudentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/helpers/mapper/StudyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/helpers/mapper/TeacherMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/helpers/mapper/TitleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/repository/InterestJpaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/repository/InterestRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/repository/StudentJpaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/repository/StudentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/repository/TeacherJpaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/repository/TeacherRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/repository/TitleJpaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/repository/TitleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/security/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../login/src/main/java/com/soa/login/security/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/security/JwtContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/../login/src/main/java/com/soa/login/security/JwtContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/security/JwtLoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../login/src/main/java/com/soa/login/security/JwtLoginFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/security/JwtTokenProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/../login/src/main/java/com/soa/login/security/JwtTokenProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/service/StudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/java/com/licenta/login/service/TeacherService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../login/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/main/resources/db/liquibase-changelog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../login/src/main/resources/db/liquibase-changelog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login/src/test/java/com/licenta/login/LoginApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../login/src/test/java/com/soa/login/LoginApplicationTests.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/TodoApp/service/TodoService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="30" column="48" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvnw">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvnw.cmd">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/soa/TodoApp/TodoApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TodoApp.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/TodoApp/TodoApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/com.soa.TodoApp">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>com.soa.TodoApp</OriginalElement>
+              <nodes>
+                <node x="640.4583333333334" y="43.0">com.soa.TodoApp.dto.TodoDto</node>
+                <node x="385.02375" y="215.0">com.soa.TodoApp.repository.TodoRepository</node>
+                <node x="766.66125" y="291.0">com.soa.TodoApp.helpers.constants.EndpointConstants</node>
+                <node x="182.0625" y="292.1328125">com.soa.TodoApp.config</node>
+                <node x="277.0625" y="353.0">com.soa.TodoApp.TodoApplication</node>
+                <node x="518.7737500000001" y="291.0">com.soa.TodoApp.service.TodoService</node>
+                <node x="559.6487500000001" y="367.0">com.soa.TodoApp.controller.TodoController</node>
+                <node x="580.6333333333333" y="215.0">com.soa.TodoApp.helpers.mapper.TodoMapperImpl</node>
+                <node x="139.5625" y="216.1328125">com.soa.TodoApp.security</node>
+                <node x="476.5" y="129.0">com.soa.TodoApp.helpers.mapper.TodoMapper</node>
+                <node x="291.5" y="129.0">com.soa.TodoApp.repository.TodoJpaRepository</node>
+                <node x="427.15125" y="43.0">com.soa.TodoApp.entity.TodoEntity</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="com.soa.TodoApp.helpers.mapper.TodoMapperImpl" target="com.soa.TodoApp.helpers.mapper.TodoMapper">
+                  <point x="-57.60000000000002" y="-13.0" />
+                  <point x="595.0333333333333" y="185.0" />
+                  <point x="573.1666666666667" y="185.0" />
+                  <point x="38.666666666666686" y="13.0" />
+                </edge>
+                <edge source="com.soa.TodoApp.security" target="com.soa.TodoApp.security">
+                  <point x="-35.5" y="13.0" />
+                  <point x="175.0625" y="262.1328125" />
+                  <point x="119.5625" y="262.1328125" />
+                  <point x="119.5625" y="229.1328125" />
+                  <point x="-71.0" y="-0.0" />
+                </edge>
+                <edge source="com.soa.TodoApp.controller.TodoController" target="com.soa.TodoApp.helpers.constants.EndpointConstants">
+                  <point x="54.0" y="-13.0" />
+                  <point x="685.6487500000001" y="347.0" />
+                  <point x="849.16125" y="347.0" />
+                  <point x="0.0" y="13.0" />
+                </edge>
+                <edge source="com.soa.TodoApp.service.TodoService" target="com.soa.TodoApp.dto.TodoDto">
+                  <point x="30.75" y="-13.0" />
+                  <point x="611.0237500000001" y="266.0" />
+                  <point x="735.1333333333333" y="266.0" />
+                  <point x="735.1333333333333" y="109.0" />
+                  <point x="711.7083333333334" y="109.0" />
+                  <point x="23.75" y="13.0" />
+                </edge>
+                <edge source="com.soa.TodoApp.service.TodoService" target="com.soa.TodoApp.repository.TodoRepository">
+                  <point x="-30.75" y="-13.0" />
+                  <point x="549.5237500000001" y="266.0" />
+                  <point x="457.02375" y="266.0" />
+                  <point x="0.0" y="13.0" />
+                </edge>
+                <edge source="com.soa.TodoApp.helpers.mapper.TodoMapperImpl" target="com.soa.TodoApp.dto.TodoDto">
+                  <point x="57.60000000000002" y="-13.0" />
+                  <point x="710.2333333333333" y="195.0" />
+                  <point x="686.76125" y="195.0" />
+                  <point x="686.76125" y="109.0" />
+                  <point x="695.875" y="109.0" />
+                  <point x="7.916666666666686" y="13.0" />
+                </edge>
+                <edge source="com.soa.TodoApp.repository.TodoRepository" target="com.soa.TodoApp.repository.TodoJpaRepository">
+                  <point x="-36.0" y="-13.0" />
+                  <point x="421.02375" y="185.0" />
+                  <point x="332.75" y="185.0" />
+                  <point x="-41.25" y="13.0" />
+                </edge>
+                <edge source="com.soa.TodoApp.helpers.mapper.TodoMapper" target="com.soa.TodoApp.dto.TodoDto">
+                  <point x="29.0" y="-13.0" />
+                  <point x="563.5" y="109.0" />
+                  <point x="648.375" y="109.0" />
+                  <point x="-39.583333333333314" y="13.0" />
+                </edge>
+                <edge source="com.soa.TodoApp.repository.TodoRepository" target="com.soa.TodoApp.dto.TodoDto">
+                  <point x="60.0" y="-13.0" />
+                  <point x="517.0237500000001" y="195.0" />
+                  <point x="661.1666666666667" y="195.0" />
+                  <point x="661.1666666666667" y="109.0" />
+                  <point x="664.2083333333334" y="109.0" />
+                  <point x="-23.75" y="13.0" />
+                </edge>
+                <edge source="com.soa.TodoApp.helpers.mapper.TodoMapperImpl" target="com.soa.TodoApp.entity.TodoEntity">
+                  <point x="0.0" y="-13.0" />
+                  <point x="652.6333333333333" y="185.0" />
+                  <point x="630.9166666666667" y="185.0" />
+                  <point x="630.9166666666667" y="89.0" />
+                  <point x="531.55125" y="89.0" />
+                  <point x="46.400000000000034" y="13.0" />
+                </edge>
+                <edge source="com.soa.TodoApp.repository.TodoRepository" target="com.soa.TodoApp.helpers.mapper.TodoMapper">
+                  <point x="36.0" y="-13.0" />
+                  <point x="493.02375" y="185.0" />
+                  <point x="534.5" y="185.0" />
+                  <point x="0.0" y="13.0" />
+                </edge>
+                <edge source="com.soa.TodoApp.config" target="com.soa.TodoApp.security">
+                  <point x="0.0" y="-13.0" />
+                  <point x="35.5" y="13.0" />
+                </edge>
+                <edge source="com.soa.TodoApp.controller.TodoController" target="com.soa.TodoApp.dto.TodoDto">
+                  <point x="18.0" y="-13.0" />
+                  <point x="649.6487500000001" y="337.0" />
+                  <point x="756.16125" y="337.0" />
+                  <point x="756.16125" y="99.0" />
+                  <point x="727.5416666666667" y="99.0" />
+                  <point x="39.58333333333337" y="13.0" />
+                </edge>
+                <edge source="com.soa.TodoApp.repository.TodoJpaRepository" target="com.soa.TodoApp.entity.TodoEntity">
+                  <point x="0.0" y="-13.0" />
+                  <point x="374.0" y="109.0" />
+                  <point x="461.95125" y="109.0" />
+                  <point x="-23.19999999999999" y="13.0" />
+                </edge>
+                <edge source="com.soa.TodoApp.controller.TodoController" target="com.soa.TodoApp.service.TodoService">
+                  <point x="-18.0" y="-13.0" />
+                  <point x="613.6487500000001" y="347.0" />
+                  <point x="611.0237500000001" y="347.0" />
+                  <point x="30.75" y="13.0" />
+                </edge>
+                <edge source="com.soa.TodoApp.repository.TodoRepository" target="com.soa.TodoApp.entity.TodoEntity">
+                  <point x="-60.0" y="-13.0" />
+                  <point x="397.02375" y="195.0" />
+                  <point x="281.0" y="195.0" />
+                  <point x="281.0" y="99.0" />
+                  <point x="438.75125" y="99.0" />
+                  <point x="-46.400000000000006" y="13.0" />
+                </edge>
+                <edge source="com.soa.TodoApp.helpers.mapper.TodoMapper" target="com.soa.TodoApp.entity.TodoEntity">
+                  <point x="-29.0" y="-13.0" />
+                  <point x="505.5" y="109.0" />
+                  <point x="485.15125" y="109.0" />
+                  <point x="0.0" y="13.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="136.0" y="220.0" />
+              <SelectedNodes />
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>titles</find>
+      <find>jwt</find>
+      <find>cors</find>
+      <find>addCol</find>
+      <find>@component</find>
+      <find>EnableAuto</find>
+      <find>starter</find>
+      <find>address</find>
+      <find>Online</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/repository</dir>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/src/main/java</dir>
+      <dir>$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/repository/AnswerRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/helpers/mapper/QuestionMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/dto/QuestionDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/entity/QuestionEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/dto/QuizDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/entity/QuizEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/dto/GradeDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/dto/StudentAnswerDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/dto/ChoiceDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/helpers/mapper/ChoiceMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/helpers/mapper/StudentAnswerMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/helpers/mapper/GradeMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/entity/GradeEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/entity/ChoiceEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/entity/StudentAnswerEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/helpers/mapper/LectureMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/repository/QuizRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/repository/QuizJpaRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/repository/GradeJpaRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/repository/GradeRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/repository/StudentAnswerJpaRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/repository/StudentAnswerRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/repository/EnrollmentRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/repository/SubjectJpaRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/entity/EnrollmentEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/dto/EnrollmentDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/repository/EnrollmentJpaRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/entity/SubjectEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/repository/SubjectRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/helpers/mapper/TodoMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/repository/TodoJpaRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/controller/EnrollmentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/controller/LectureController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/controller/QuizController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/controller/SubjectController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/helpers/constants/EndpointConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/service/LectureService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/security/JwtTokenProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/service/TodoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/repository/TodoRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/entity/TodoEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/db/liquibase-changelog.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/dto/TodoDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/controller/TodoController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soa/TodoApp/OnlineSchoolApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/config/CustomAuthenticationProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soa/TodoApp/config/CustomAuthenticationProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soa/TodoApp/TodoApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="TodoApp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="TodoApp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TodoApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TodoApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TodoApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TodoApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TodoApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TodoApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TodoApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TodoApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TodoApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TodoApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TodoApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TodoApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TodoApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TodoApp" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TodoApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TodoApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TodoApp" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TodoApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TodoApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TodoApp" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TodoApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TodoApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TodoApp" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TodoApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TodoApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TodoApp" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TodoApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TodoApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TodoApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TodoApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TodoApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TodoApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TodoApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TodoApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TodoApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TodoApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TodoApp" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TodoApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TodoApp" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TodoApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TodoApp" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TodoApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TodoApp" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="soa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TodoApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TodoApp" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TodoApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TodoApp" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TodoApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TodoApp" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-test-sources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TodoApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TodoApp" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="maven-archiver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TodoApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TodoApp" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="maven-status" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TodoApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562157422871" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="VisualVMLauncher" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.licenta.OnlineSchool.controller" />
+      <recent name="com.licenta.OnlineSchool.service" />
+      <recent name="com.licenta.OnlineSchool.repository" />
+      <recent name="com.licenta.OnlineSchool.helpers.mapper" />
+      <recent name="com.licenta.OnlineSchool.entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/helpers" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.015715467" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="TodoApp" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="TodoApp" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="TodoApp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.soa.TodoApp.TodoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4dd8eb76-51f7-4a34-951b-0fc7fc3e7101" name="Default Changelist" comment="" />
+      <created>1554367981880</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554367981880</updated>
+      <workItem from="1554367983281" duration="4652000" />
+      <workItem from="1555062835809" duration="26057000" />
+      <workItem from="1556967421876" duration="1755000" />
+      <workItem from="1557664777257" duration="8685000" />
+      <workItem from="1558456179448" duration="2523000" />
+      <workItem from="1558510516011" duration="507000" />
+      <workItem from="1558524122161" duration="42303000" />
+      <workItem from="1559757842585" duration="11366000" />
+      <workItem from="1559830418889" duration="39120000" />
+      <workItem from="1562158565021" duration="6200000" />
+      <workItem from="1562171293915" duration="664000" />
+      <workItem from="1562176400055" duration="205000" />
+      <workItem from="1562180860655" duration="3920000" />
+      <workItem from="1563215813971" duration="435000" />
+      <workItem from="1564578012111" duration="84000" />
+      <workItem from="1565387030822" duration="552000" />
+      <workItem from="1585654359613" duration="928000" />
+      <workItem from="1585657175539" duration="5503000" />
+      <workItem from="1587466950882" duration="611000" />
+      <workItem from="1587990777014" duration="492000" />
+      <workItem from="1588786077576" duration="442000" />
+      <workItem from="1588867593900" duration="1086000" />
+      <workItem from="1588925984041" duration="960000" />
+      <workItem from="1591122291110" duration="128000" />
+      <workItem from="1591122457185" duration="1203000" />
+      <workItem from="1593116487402" duration="29000" />
+      <workItem from="1611785413926" duration="13394000" />
+      <workItem from="1612208917131" duration="2523000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="176327000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21647818" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run Dashboard" weight="0.32876712" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.25068492" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" weight="0.33835617" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.4219178" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50080776" side_tool="true" weight="0.39726028" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32876712" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.4671233" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Metrics" order="15" visible="true" weight="0.38767123" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="16" weight="0.57945204" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="17" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24959612" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.134895" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Maven" order="10" weight="0.17285945" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/helpers/mapper/SubjectMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/entity/GradeEntity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/dto/GradeDto.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/dto/SubjectDto.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/repository/AnswerRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/repository/CategoryRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/repository/GradeJpaRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/repository/SubjectRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/repository/StudentAnswerRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/repository/StudentAnswerJpaRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/repository/QuizRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/repository/QuestionRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/repository/LectureJpaRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/repository/GradeRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/repository/EnrollmentRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/service/SubjectService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/controller/SubjectController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/controller/QuizController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/repository/LectureRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/repository/AnswerJpaRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/helpers/mapper/QuizMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/entity/CategoryEntity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/service/LectureService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/controller/LectureController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/controller/EnrollmentController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/dto/AnswerDto.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/entity/AnswerEntity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/OnlineSchool/helpers/mapper/AnswerMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/TodoApp/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/TodoApp/security/JwtContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/TodoApp/security/JwtTokenProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-89">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/TodoApp/entity/TodoEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/liquibase-changelog.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/TodoApp/dto/TodoDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/TodoApp/controller/TodoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/TodoApp/helpers/mapper/TodoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/TodoApp/helpers/constants/EndpointConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/TodoApp/repository/TodoRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/TodoApp/repository/TodoJpaRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/TodoApp/config/CustomAuthenticationProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/TodoApp/security/JwtAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/TodoApp/service/TodoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvnw">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvnw.cmd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/soa/TodoApp/TodoApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TodoApp.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/TodoApp/TodoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.soa.TodoApp">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.soa.TodoApp</OriginalElement>
+          <nodes>
+            <node x="640.4583333333334" y="43.0">com.soa.TodoApp.dto.TodoDto</node>
+            <node x="385.02375" y="215.0">com.soa.TodoApp.repository.TodoRepository</node>
+            <node x="766.66125" y="291.0">com.soa.TodoApp.helpers.constants.EndpointConstants</node>
+            <node x="182.0625" y="292.1328125">com.soa.TodoApp.config</node>
+            <node x="277.0625" y="353.0">com.soa.TodoApp.TodoApplication</node>
+            <node x="518.7737500000001" y="291.0">com.soa.TodoApp.service.TodoService</node>
+            <node x="559.6487500000001" y="367.0">com.soa.TodoApp.controller.TodoController</node>
+            <node x="580.6333333333333" y="215.0">com.soa.TodoApp.helpers.mapper.TodoMapperImpl</node>
+            <node x="139.5625" y="216.1328125">com.soa.TodoApp.security</node>
+            <node x="476.5" y="129.0">com.soa.TodoApp.helpers.mapper.TodoMapper</node>
+            <node x="291.5" y="129.0">com.soa.TodoApp.repository.TodoJpaRepository</node>
+            <node x="427.15125" y="43.0">com.soa.TodoApp.entity.TodoEntity</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.soa.TodoApp.helpers.mapper.TodoMapperImpl" target="com.soa.TodoApp.helpers.mapper.TodoMapper">
+              <point x="-57.60000000000002" y="-13.0" />
+              <point x="595.0333333333333" y="185.0" />
+              <point x="573.1666666666667" y="185.0" />
+              <point x="38.666666666666686" y="13.0" />
+            </edge>
+            <edge source="com.soa.TodoApp.security" target="com.soa.TodoApp.security">
+              <point x="-35.5" y="13.0" />
+              <point x="175.0625" y="262.1328125" />
+              <point x="119.5625" y="262.1328125" />
+              <point x="119.5625" y="229.1328125" />
+              <point x="-71.0" y="-0.0" />
+            </edge>
+            <edge source="com.soa.TodoApp.controller.TodoController" target="com.soa.TodoApp.helpers.constants.EndpointConstants">
+              <point x="54.0" y="-13.0" />
+              <point x="685.6487500000001" y="347.0" />
+              <point x="849.16125" y="347.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="com.soa.TodoApp.service.TodoService" target="com.soa.TodoApp.dto.TodoDto">
+              <point x="30.75" y="-13.0" />
+              <point x="611.0237500000001" y="266.0" />
+              <point x="735.1333333333333" y="266.0" />
+              <point x="735.1333333333333" y="109.0" />
+              <point x="711.7083333333334" y="109.0" />
+              <point x="23.75" y="13.0" />
+            </edge>
+            <edge source="com.soa.TodoApp.service.TodoService" target="com.soa.TodoApp.repository.TodoRepository">
+              <point x="-30.75" y="-13.0" />
+              <point x="549.5237500000001" y="266.0" />
+              <point x="457.02375" y="266.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="com.soa.TodoApp.helpers.mapper.TodoMapperImpl" target="com.soa.TodoApp.dto.TodoDto">
+              <point x="57.60000000000002" y="-13.0" />
+              <point x="710.2333333333333" y="195.0" />
+              <point x="686.76125" y="195.0" />
+              <point x="686.76125" y="109.0" />
+              <point x="695.875" y="109.0" />
+              <point x="7.916666666666686" y="13.0" />
+            </edge>
+            <edge source="com.soa.TodoApp.repository.TodoRepository" target="com.soa.TodoApp.repository.TodoJpaRepository">
+              <point x="-36.0" y="-13.0" />
+              <point x="421.02375" y="185.0" />
+              <point x="332.75" y="185.0" />
+              <point x="-41.25" y="13.0" />
+            </edge>
+            <edge source="com.soa.TodoApp.helpers.mapper.TodoMapper" target="com.soa.TodoApp.dto.TodoDto">
+              <point x="29.0" y="-13.0" />
+              <point x="563.5" y="109.0" />
+              <point x="648.375" y="109.0" />
+              <point x="-39.583333333333314" y="13.0" />
+            </edge>
+            <edge source="com.soa.TodoApp.repository.TodoRepository" target="com.soa.TodoApp.dto.TodoDto">
+              <point x="60.0" y="-13.0" />
+              <point x="517.0237500000001" y="195.0" />
+              <point x="661.1666666666667" y="195.0" />
+              <point x="661.1666666666667" y="109.0" />
+              <point x="664.2083333333334" y="109.0" />
+              <point x="-23.75" y="13.0" />
+            </edge>
+            <edge source="com.soa.TodoApp.helpers.mapper.TodoMapperImpl" target="com.soa.TodoApp.entity.TodoEntity">
+              <point x="0.0" y="-13.0" />
+              <point x="652.6333333333333" y="185.0" />
+              <point x="630.9166666666667" y="185.0" />
+              <point x="630.9166666666667" y="89.0" />
+              <point x="531.55125" y="89.0" />
+              <point x="46.400000000000034" y="13.0" />
+            </edge>
+            <edge source="com.soa.TodoApp.repository.TodoRepository" target="com.soa.TodoApp.helpers.mapper.TodoMapper">
+              <point x="36.0" y="-13.0" />
+              <point x="493.02375" y="185.0" />
+              <point x="534.5" y="185.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="com.soa.TodoApp.config" target="com.soa.TodoApp.security">
+              <point x="0.0" y="-13.0" />
+              <point x="35.5" y="13.0" />
+            </edge>
+            <edge source="com.soa.TodoApp.controller.TodoController" target="com.soa.TodoApp.dto.TodoDto">
+              <point x="18.0" y="-13.0" />
+              <point x="649.6487500000001" y="337.0" />
+              <point x="756.16125" y="337.0" />
+              <point x="756.16125" y="99.0" />
+              <point x="727.5416666666667" y="99.0" />
+              <point x="39.58333333333337" y="13.0" />
+            </edge>
+            <edge source="com.soa.TodoApp.repository.TodoJpaRepository" target="com.soa.TodoApp.entity.TodoEntity">
+              <point x="0.0" y="-13.0" />
+              <point x="374.0" y="109.0" />
+              <point x="461.95125" y="109.0" />
+              <point x="-23.19999999999999" y="13.0" />
+            </edge>
+            <edge source="com.soa.TodoApp.controller.TodoController" target="com.soa.TodoApp.service.TodoService">
+              <point x="-18.0" y="-13.0" />
+              <point x="613.6487500000001" y="347.0" />
+              <point x="611.0237500000001" y="347.0" />
+              <point x="30.75" y="13.0" />
+            </edge>
+            <edge source="com.soa.TodoApp.repository.TodoRepository" target="com.soa.TodoApp.entity.TodoEntity">
+              <point x="-60.0" y="-13.0" />
+              <point x="397.02375" y="195.0" />
+              <point x="281.0" y="195.0" />
+              <point x="281.0" y="99.0" />
+              <point x="438.75125" y="99.0" />
+              <point x="-46.400000000000006" y="13.0" />
+            </edge>
+            <edge source="com.soa.TodoApp.helpers.mapper.TodoMapper" target="com.soa.TodoApp.entity.TodoEntity">
+              <point x="-29.0" y="-13.0" />
+              <point x="505.5" y="109.0" />
+              <point x="485.15125" y="109.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="136.0" y="220.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="30" column="48" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>OnlineSchool</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

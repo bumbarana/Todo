@@ -1,0 +1,1427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="98b7c32b-7cc9-4b00-a375-9d4b737e0bb5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soa/login/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soa/login/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/soa/login/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/OnlineSchoolApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/config/CustomAuthenticationProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/config/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/controller/EnrollmentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/controller/LectureController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/controller/QuizController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/controller/SubjectController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/dto/AnswerDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/dto/CategoryDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/dto/ChoiceDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/dto/EnrollmentDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/dto/GradeDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/dto/LectureDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/dto/QuestionDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/dto/QuizDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/dto/StudentAnswerDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/dto/SubjectDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/entity/AnswerEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/entity/CategoryEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/entity/ChoiceEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/entity/EnrollmentEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/entity/GradeEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/entity/LectureEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/entity/QuestionEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/entity/QuizEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/entity/StudentAnswerEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/entity/SubjectEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/helpers/constants/EndpointConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/helpers/mapper/AnswerMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/helpers/mapper/CategoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/helpers/mapper/ChoiceMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/helpers/mapper/EnrollmentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/helpers/mapper/GradeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/helpers/mapper/LectureMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/helpers/mapper/QuestionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/helpers/mapper/QuizMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/helpers/mapper/StudentAnswerMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/helpers/mapper/SubjectMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/repository/AnswerJpaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/repository/AnswerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/repository/CategoryJpaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/repository/CategoryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/repository/EnrollmentJpaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/repository/EnrollmentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/repository/GradeJpaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/repository/GradeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/repository/LectureJpaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/repository/LectureRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/repository/QuestionJpaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/repository/QuestionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/repository/QuizJpaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/repository/QuizRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/repository/StudentAnswerJpaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/repository/StudentAnswerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/repository/SubjectJpaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/repository/SubjectRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/security/JwtAuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/security/JwtContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/security/JwtTokenProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/service/LectureService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/java/com/licenta/OnlineSchool/service/SubjectService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/main/resources/db/liquibase-changelog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OnlineSchool/src/test/java/com/licenta/OnlineSchool/OnlineSchoolApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/LoginApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soa/login/LoginApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/config/AuthenticationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soa/login/config/AuthenticationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/config/CustomAuthenticationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soa/login/config/CustomAuthenticationProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soa/login/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/dto/AddressDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/dto/InterestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/dto/StudentDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/dto/StudyDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/dto/TeacherDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/dto/TitleDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/entity/AddressEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/entity/InterestEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/entity/StudentEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/entity/StudyEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/entity/TeacherEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/entity/TitleEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/helpers/constants/EndpointConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soa/login/helpers/constants/EndpointConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/helpers/mapper/AddressMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/helpers/mapper/InterestMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/helpers/mapper/StudentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/helpers/mapper/StudyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/helpers/mapper/TeacherMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/helpers/mapper/TitleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/repository/InterestJpaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/repository/InterestRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/repository/StudentJpaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/repository/StudentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/repository/TeacherJpaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/repository/TeacherRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/repository/TitleJpaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/repository/TitleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/security/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soa/login/security/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/security/JwtContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soa/login/security/JwtContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/security/JwtLoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soa/login/security/JwtLoginFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/security/JwtTokenProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soa/login/security/JwtTokenProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/service/StudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/licenta/login/service/TeacherService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/liquibase-changelog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/liquibase-changelog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/licenta/login/LoginApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/soa/login/LoginApplicationTests.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="licenta@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="licenta@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="licenta@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="licenta: database" type="162271b6:PgImplModel$Database" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/login/entity/UserEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/login/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/com.soa.login">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>com.soa.login</OriginalElement>
+              <nodes>
+                <node x="0.0" y="455.0">com.soa.login.LoginApplicationTests</node>
+                <node x="287.1340476190476" y="288.0">com.soa.login.helpers.constants</node>
+                <node x="90.0" y="288.0">com.soa.login.service</node>
+                <node x="396.6340476190476" y="0.0">com.soa.login.entity.UserEntity</node>
+                <node x="70.67571428571429" y="172.0">com.soa.login.config</node>
+                <node x="238.0" y="455.0">com.soa.login.LoginApplication</node>
+                <node x="207.98238095238094" y="0.0">com.soa.login.dto.UserDto</node>
+                <node x="447.8840476190476" y="86.0">com.soa.login.repository.UserJpaRepository</node>
+                <node x="355.11642857142857" y="172.0">com.soa.login.repository.UserRepository</node>
+                <node x="49.67571428571429" y="384.0">com.soa.login.controller.UserController</node>
+                <node x="243.63404761904764" y="384.0">com.soa.login.controller.LoginController</node>
+                <node x="298.8840476190476" y="86.0">com.soa.login.helpers.mapper</node>
+                <node x="87.34238095238098" y="86.0">com.soa.login.security</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="com.soa.login.controller.LoginController" target="com.soa.login.service">
+                  <point x="-62.916666666666686" y="-13.0" />
+                  <point x="256.21738095238095" y="354.0" />
+                  <point x="157.5" y="354.0" />
+                  <point x="0.0" y="13.0" />
+                </edge>
+                <edge source="com.soa.login.controller.UserController" target="com.soa.login.repository.UserRepository">
+                  <point x="48.0" y="-13.0" />
+                  <point x="169.6757142857143" y="364.0" />
+                  <point x="235.5" y="364.0" />
+                  <point x="235.5" y="268.0" />
+                  <point x="409.11642857142857" y="268.0" />
+                  <point x="-18.0" y="13.0" />
+                </edge>
+                <edge source="com.soa.login.repository.UserRepository" target="com.soa.login.repository.UserJpaRepository">
+                  <point x="36.0" y="-13.0" />
+                  <point x="463.11642857142857" y="142.0" />
+                  <point x="489.1340476190476" y="142.0" />
+                  <point x="-41.25" y="13.0" />
+                </edge>
+                <edge source="com.soa.login.repository.UserRepository" target="com.soa.login.entity.UserEntity">
+                  <point x="12.0" y="-13.0" />
+                  <point x="439.11642857142857" y="152.0" />
+                  <point x="437.3840476190476" y="152.0" />
+                  <point x="437.3840476190476" y="66.0" />
+                  <point x="469.1340476190476" y="66.0" />
+                  <point x="14.5" y="13.0" />
+                </edge>
+                <edge source="com.soa.login.controller.UserController" target="com.soa.login.service">
+                  <point x="0.0" y="-13.0" />
+                  <point x="121.67571428571429" y="364.0" />
+                  <point x="112.5" y="364.0" />
+                  <point x="-45.0" y="13.0" />
+                </edge>
+                <edge source="com.soa.login.service" target="com.soa.login.dto.UserDto">
+                  <point x="-54.0" y="-13.0" />
+                  <point x="103.5" y="268.0" />
+                  <point x="20.175714285714292" y="268.0" />
+                  <point x="20.175714285714292" y="56.0" />
+                  <point x="228.33952380952377" y="56.0" />
+                  <point x="-27.14285714285714" y="13.0" />
+                </edge>
+                <edge source="com.soa.login.repository.UserRepository" target="com.soa.login.helpers.mapper">
+                  <point x="-12.0" y="-13.0" />
+                  <point x="415.11642857142857" y="132.0" />
+                  <point x="394.8840476190476" y="132.0" />
+                  <point x="32.0" y="13.0" />
+                </edge>
+                <edge source="com.soa.login.controller.UserController" target="com.soa.login.dto.UserDto">
+                  <point x="-48.0" y="-13.0" />
+                  <point x="73.67571428571429" y="364.0" />
+                  <point x="0.0" y="364.0" />
+                  <point x="0.0" y="46.0" />
+                  <point x="214.7680952380952" y="46.0" />
+                  <point x="-40.71428571428572" y="13.0" />
+                </edge>
+                <edge source="com.soa.login.repository.UserRepository" target="com.soa.login.dto.UserDto">
+                  <point x="-60.0" y="-13.0" />
+                  <point x="367.11642857142857" y="152.0" />
+                  <point x="277.1340476190476" y="152.0" />
+                  <point x="277.1340476190476" y="66.0" />
+                  <point x="269.0538095238095" y="66.0" />
+                  <point x="13.571428571428584" y="13.0" />
+                </edge>
+                <edge source="com.soa.login.helpers.mapper" target="com.soa.login.entity.UserEntity">
+                  <point x="16.0" y="-13.0" />
+                  <point x="378.8840476190476" y="46.0" />
+                  <point x="411.1340476190476" y="46.0" />
+                  <point x="-43.5" y="13.0" />
+                </edge>
+                <edge source="com.soa.login.helpers.mapper" target="com.soa.login.dto.UserDto">
+                  <point x="-48.0" y="-13.0" />
+                  <point x="314.8840476190476" y="66.0" />
+                  <point x="282.6252380952381" y="66.0" />
+                  <point x="27.142857142857196" y="13.0" />
+                </edge>
+                <edge source="com.soa.login.repository.UserJpaRepository" target="com.soa.login.entity.UserEntity">
+                  <point x="0.0" y="-13.0" />
+                  <point x="530.3840476190476" y="66.0" />
+                  <point x="498.1340476190476" y="66.0" />
+                  <point x="43.5" y="13.0" />
+                </edge>
+                <edge source="com.soa.login.controller.LoginController" target="com.soa.login.dto.UserDto">
+                  <point x="-12.583333333333371" y="-13.0" />
+                  <point x="306.55071428571426" y="334.0" />
+                  <point x="262.665" y="334.0" />
+                  <point x="262.665" y="66.0" />
+                  <point x="255.48238095238094" y="66.0" />
+                  <point x="2.8421709430404007E-14" y="13.0" />
+                </edge>
+                <edge source="com.soa.login.config" target="com.soa.login.service">
+                  <point x="53.33333333333334" y="13.0" />
+                  <point x="188.00904761904764" y="268.0" />
+                  <point x="184.5" y="268.0" />
+                  <point x="27.0" y="-13.0" />
+                </edge>
+                <edge source="com.soa.login.config" target="com.soa.login.config">
+                  <point x="-32.0" y="13.0" />
+                  <point x="102.67571428571429" y="228.0" />
+                  <point x="40.67571428571429" y="228.0" />
+                  <point x="40.67571428571429" y="185.0" />
+                  <point x="-64.0" y="-0.0" />
+                </edge>
+                <edge source="com.soa.login.service" target="com.soa.login.repository.UserRepository">
+                  <point x="54.0" y="-13.0" />
+                  <point x="211.5" y="258.0" />
+                  <point x="373.11642857142857" y="258.0" />
+                  <point x="-54.0" y="13.0" />
+                </edge>
+                <edge source="com.soa.login.controller.LoginController" target="com.soa.login.repository.UserRepository">
+                  <point x="37.75" y="-13.0" />
+                  <point x="356.88404761904764" y="354.0" />
+                  <point x="446.6340476190476" y="354.0" />
+                  <point x="446.6340476190476" y="268.0" />
+                  <point x="445.11642857142857" y="268.0" />
+                  <point x="18.0" y="13.0" />
+                </edge>
+                <edge source="com.soa.login.config" target="com.soa.login.dto.UserDto">
+                  <point x="-48.0" y="-13.0" />
+                  <point x="86.67571428571429" y="152.0" />
+                  <point x="60.0" y="152.0" />
+                  <point x="60.0" y="66.0" />
+                  <point x="241.91095238095238" y="66.0" />
+                  <point x="-13.571428571428555" y="13.0" />
+                </edge>
+                <edge source="com.soa.login.config" target="com.soa.login.security">
+                  <point x="48.0" y="-13.0" />
+                  <point x="182.6757142857143" y="152.0" />
+                  <point x="205.67571428571432" y="152.0" />
+                  <point x="47.33333333333334" y="13.0" />
+                </edge>
+                <edge source="com.soa.login.service" target="com.soa.login.config">
+                  <point x="-27.0" y="-13.0" />
+                  <point x="130.5" y="268.0" />
+                  <point x="145.34238095238098" y="268.0" />
+                  <point x="10.666666666666686" y="13.0" />
+                </edge>
+                <edge source="com.soa.login.controller.LoginController" target="com.soa.login.helpers.constants">
+                  <point x="12.583333333333314" y="-13.0" />
+                  <point x="331.71738095238095" y="344.0" />
+                  <point x="361.6340476190476" y="344.0" />
+                  <point x="0.0" y="13.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.1511236938717317" x="256.89600353671347" y="242.9292085702043" />
+              <SelectedNodes />
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/login/dto/UserDto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/login/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1035">
+              <caret line="79" column="33" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/login/security/JwtLoginFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="68" column="31" selection-start-line="67" selection-end-line="68" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/login/config/CustomAuthenticationProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="45" column="95" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/login/controller/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/login/helpers/constants/EndpointConstants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>configureGlobal</find>
+      <find>jwt</find>
+      <find>token</find>
+      <find>syncro</find>
+      <find>hibernate</find>
+      <find>stud</find>
+      <find>studi</find>
+      <find>getTitleList</find>
+      <find>transactio</find>
+      <find>save</find>
+      <find>driver</find>
+      <find>liquiba</find>
+      <find>liqu</find>
+      <find>mapp</find>
+      <find>mapstruct</find>
+      <find>utils</find>
+      <find>lang3</find>
+      <find>http</find>
+      <find>Student</find>
+      <find>student</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>User</replace>
+      <replace>user</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main/java/com/licenta/login/entity</dir>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/src/main/java/com/licenta/login</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/helpers/ds.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/helpers/mapper/AddressMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/config/AuthenticationRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/service/Service.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/security/JwtAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/security/JwtTokenProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/helpers/constants/EndpointConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/helpers/mapper/InterestMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/helpers/mapper/StudentMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/dto/InterestDto.java" />
+        <option value="$PROJECT_DIR$/target/generated-sources/annotations/com/licenta/login/helpers/mapper/StudyMapperImpl.java" />
+        <option value="$PROJECT_DIR$/target/generated-sources/annotations/com/licenta/login/helpers/mapper/TeacherMapperImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/entity/StudentEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/entity/InterestEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/entity/AddressEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/LoginApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/helpers/mapper/TitleMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/helpers/mapper/StudyMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/entity/StudyEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/dto/StudyDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/entity/TitleEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/dto/TitleDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/dto/TeacherDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/entity/TeacherEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/helpers/mapper/TeacherMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/repository/StudentJpaRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/repository/InterestRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/repository/TitleRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/repository/TeacherJpaRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/repository/TeacherRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/repository/InterestJpaRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/repository/TitleJpaRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/service/StudentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/service/StudentsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/repository/StudentRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/service/TeacherService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/dto/UserDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/repository/UserJpaRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/helpers/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/db/liquibase-changelog.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/entity/UserEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/config/CustomAuthenticationProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/security/JwtLoginFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/licenta/login/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soa/login/service/UserService.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="login" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="login" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="login" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="login" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="login" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="login" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="login" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="login" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="login" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="login" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="login" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="login" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="login" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-core:5.1.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="login" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-core:5.1.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-core-5.1.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562168274674" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.licenta.login.service" />
+      <recent name="com.licenta.login.repository" />
+      <recent name="com.licenta.login.helpers.mapper" />
+      <recent name="com.licenta.login.helpers.constants" />
+      <recent name="com.licenta.login.helpers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/licenta/login" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/licenta/login/helpers" />
+      <recent name="$PROJECT_DIR$/src/main/resources/db" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="LoginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="login" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.soa.login.LoginApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_login" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53594" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98b7c32b-7cc9-4b00-a375-9d4b737e0bb5" name="Default Changelist" comment="" />
+      <created>1550058464225</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550058464225</updated>
+      <workItem from="1550058465965" duration="26897000" />
+      <workItem from="1550235189143" duration="11632000" />
+      <workItem from="1550249330284" duration="206000" />
+      <workItem from="1550486281061" duration="14951000" />
+      <workItem from="1551097766283" duration="1192000" />
+      <workItem from="1552417629809" duration="2237000" />
+      <workItem from="1552569625021" duration="4044000" />
+      <workItem from="1553077222048" duration="1807000" />
+      <workItem from="1553158309395" duration="19489000" />
+      <workItem from="1554202002578" duration="21238000" />
+      <workItem from="1555062829385" duration="21105000" />
+      <workItem from="1556967429875" duration="10405000" />
+      <workItem from="1557999852444" duration="8470000" />
+      <workItem from="1558456251234" duration="882000" />
+      <workItem from="1558510547914" duration="473000" />
+      <workItem from="1558529459924" duration="19625000" />
+      <workItem from="1559757833691" duration="29611000" />
+      <workItem from="1562158563785" duration="4964000" />
+      <workItem from="1562171119027" duration="477000" />
+      <workItem from="1562176352913" duration="222000" />
+      <workItem from="1562180896403" duration="3798000" />
+      <workItem from="1563215773448" duration="472000" />
+      <workItem from="1564578006397" duration="128000" />
+      <workItem from="1565387029236" duration="407000" />
+      <workItem from="1575285050360" duration="15186000" />
+      <workItem from="1611785186683" duration="17518000" />
+      <workItem from="1612209721821" duration="1817000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="239253000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.057350565" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.31369862" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4983845" weight="0.28082192" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4983845" weight="0.32876712" />
+      <window_info anchor="bottom" id="Thumbnails" order="7" weight="0.3663522" />
+      <window_info anchor="bottom" id="Spring" order="8" sideWeight="0.49919224" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49919224" weight="0.32876712" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5024233" side_tool="true" weight="0.35068494" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49757674" weight="0.35068494" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32876712" />
+      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="16" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="17" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24959612" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.18336026" />
+      <window_info anchor="right" id="Database" order="6" weight="0.21243942" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.13085622" />
+      <window_info anchor="right" id="Maven" order="10" weight="0.32956383" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22778675" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.09863014" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4983845" weight="0.4630137" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4983845" weight="0.32876712" />
+      <window_info anchor="bottom" id="Thumbnails" order="7" weight="0.3663522" />
+      <window_info anchor="bottom" id="Spring" order="8" sideWeight="0.49919224" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49919224" weight="0.32876712" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5016155" side_tool="true" weight="0.53561646" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4983845" weight="0.32739726" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24959612" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.28998384" />
+      <window_info anchor="right" id="Database" order="6" weight="0.21243942" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" visible="true" weight="0.13085622" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/login/helpers/mapper/InterestMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/login/service/StudentsService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/login/entity/TitleEntity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/login/entity/InterestEntity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/login/dto/InterestDto.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/login/dto/TeacherDto.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/login/repository/TitleRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/login/helpers/mapper/StudyMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/login/entity/TeacherEntity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/login/repository/TeacherRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/login/repository/TitleJpaRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/login/repository/TeacherJpaRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/login/entity/StudentEntity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/login/dto/StudentDto.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/login/dto/TitleDto.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/login/helpers/mapper/StudentMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/login/helpers/mapper/TeacherMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/login/helpers/mapper/TitleMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/login/repository/StudentRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/login/repository/StudentJpaRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/login/security/JwtContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/login/service/TeacherService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/login/LoginApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/login/security/JwtAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.3.RELEASE/spring-security-core-5.1.3.RELEASE.jar!/org/springframework/security/authentication/AuthenticationManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/login/entity/StudyEntity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/login/entity/AddressEntity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/login/repository/InterestJpaRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/login/helpers/mapper/AddressMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/login/dto/AddressDto.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/licenta/login/service/StudentService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/liquibase-changelog.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/login/config/AuthenticationRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/login/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="71" column="32" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/login/helpers/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/login/repository/UserJpaRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/login/security/JwtTokenProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="27" column="106" selection-start-line="27" selection-start-column="93" selection-end-line="27" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="80" selection-start-line="4" selection-start-column="80" selection-end-line="4" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" selection-start-line="41" selection-end-line="45" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/login/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.licenta.login">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.licenta.login</OriginalElement>
+          <nodes>
+            <node x="" y="">com.licenta.login</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.5392322207277175" x="709.0" y="327.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram//Users/anamaria/Documents/Computer Science/master/soa/MyApp/OnlineSchoolBE/login/src/main/java/com/licenta/login">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/main/java/com/licenta/login</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.6369745019374111" x="380.0" y="265.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/login/entity/UserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/login/dto/UserDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/login/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="79" column="33" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/login/security/JwtLoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="68" column="31" selection-start-line="67" selection-end-line="68" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/login/config/CustomAuthenticationProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="45" column="95" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/login/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/login/helpers/constants/EndpointConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soa/login/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.soa.login">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.soa.login</OriginalElement>
+          <nodes>
+            <node x="0.0" y="455.0">com.soa.login.LoginApplicationTests</node>
+            <node x="287.1340476190476" y="288.0">com.soa.login.helpers.constants</node>
+            <node x="90.0" y="288.0">com.soa.login.service</node>
+            <node x="396.6340476190476" y="0.0">com.soa.login.entity.UserEntity</node>
+            <node x="70.67571428571429" y="172.0">com.soa.login.config</node>
+            <node x="238.0" y="455.0">com.soa.login.LoginApplication</node>
+            <node x="207.98238095238094" y="0.0">com.soa.login.dto.UserDto</node>
+            <node x="447.8840476190476" y="86.0">com.soa.login.repository.UserJpaRepository</node>
+            <node x="355.11642857142857" y="172.0">com.soa.login.repository.UserRepository</node>
+            <node x="49.67571428571429" y="384.0">com.soa.login.controller.UserController</node>
+            <node x="243.63404761904764" y="384.0">com.soa.login.controller.LoginController</node>
+            <node x="298.8840476190476" y="86.0">com.soa.login.helpers.mapper</node>
+            <node x="87.34238095238098" y="86.0">com.soa.login.security</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.soa.login.controller.LoginController" target="com.soa.login.service">
+              <point x="-62.916666666666686" y="-13.0" />
+              <point x="256.21738095238095" y="354.0" />
+              <point x="157.5" y="354.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="com.soa.login.controller.UserController" target="com.soa.login.repository.UserRepository">
+              <point x="48.0" y="-13.0" />
+              <point x="169.6757142857143" y="364.0" />
+              <point x="235.5" y="364.0" />
+              <point x="235.5" y="268.0" />
+              <point x="409.11642857142857" y="268.0" />
+              <point x="-18.0" y="13.0" />
+            </edge>
+            <edge source="com.soa.login.repository.UserRepository" target="com.soa.login.repository.UserJpaRepository">
+              <point x="36.0" y="-13.0" />
+              <point x="463.11642857142857" y="142.0" />
+              <point x="489.1340476190476" y="142.0" />
+              <point x="-41.25" y="13.0" />
+            </edge>
+            <edge source="com.soa.login.repository.UserRepository" target="com.soa.login.entity.UserEntity">
+              <point x="12.0" y="-13.0" />
+              <point x="439.11642857142857" y="152.0" />
+              <point x="437.3840476190476" y="152.0" />
+              <point x="437.3840476190476" y="66.0" />
+              <point x="469.1340476190476" y="66.0" />
+              <point x="14.5" y="13.0" />
+            </edge>
+            <edge source="com.soa.login.controller.UserController" target="com.soa.login.service">
+              <point x="0.0" y="-13.0" />
+              <point x="121.67571428571429" y="364.0" />
+              <point x="112.5" y="364.0" />
+              <point x="-45.0" y="13.0" />
+            </edge>
+            <edge source="com.soa.login.service" target="com.soa.login.dto.UserDto">
+              <point x="-54.0" y="-13.0" />
+              <point x="103.5" y="268.0" />
+              <point x="20.175714285714292" y="268.0" />
+              <point x="20.175714285714292" y="56.0" />
+              <point x="228.33952380952377" y="56.0" />
+              <point x="-27.14285714285714" y="13.0" />
+            </edge>
+            <edge source="com.soa.login.repository.UserRepository" target="com.soa.login.helpers.mapper">
+              <point x="-12.0" y="-13.0" />
+              <point x="415.11642857142857" y="132.0" />
+              <point x="394.8840476190476" y="132.0" />
+              <point x="32.0" y="13.0" />
+            </edge>
+            <edge source="com.soa.login.controller.UserController" target="com.soa.login.dto.UserDto">
+              <point x="-48.0" y="-13.0" />
+              <point x="73.67571428571429" y="364.0" />
+              <point x="0.0" y="364.0" />
+              <point x="0.0" y="46.0" />
+              <point x="214.7680952380952" y="46.0" />
+              <point x="-40.71428571428572" y="13.0" />
+            </edge>
+            <edge source="com.soa.login.repository.UserRepository" target="com.soa.login.dto.UserDto">
+              <point x="-60.0" y="-13.0" />
+              <point x="367.11642857142857" y="152.0" />
+              <point x="277.1340476190476" y="152.0" />
+              <point x="277.1340476190476" y="66.0" />
+              <point x="269.0538095238095" y="66.0" />
+              <point x="13.571428571428584" y="13.0" />
+            </edge>
+            <edge source="com.soa.login.helpers.mapper" target="com.soa.login.entity.UserEntity">
+              <point x="16.0" y="-13.0" />
+              <point x="378.8840476190476" y="46.0" />
+              <point x="411.1340476190476" y="46.0" />
+              <point x="-43.5" y="13.0" />
+            </edge>
+            <edge source="com.soa.login.helpers.mapper" target="com.soa.login.dto.UserDto">
+              <point x="-48.0" y="-13.0" />
+              <point x="314.8840476190476" y="66.0" />
+              <point x="282.6252380952381" y="66.0" />
+              <point x="27.142857142857196" y="13.0" />
+            </edge>
+            <edge source="com.soa.login.repository.UserJpaRepository" target="com.soa.login.entity.UserEntity">
+              <point x="0.0" y="-13.0" />
+              <point x="530.3840476190476" y="66.0" />
+              <point x="498.1340476190476" y="66.0" />
+              <point x="43.5" y="13.0" />
+            </edge>
+            <edge source="com.soa.login.controller.LoginController" target="com.soa.login.dto.UserDto">
+              <point x="-12.583333333333371" y="-13.0" />
+              <point x="306.55071428571426" y="334.0" />
+              <point x="262.665" y="334.0" />
+              <point x="262.665" y="66.0" />
+              <point x="255.48238095238094" y="66.0" />
+              <point x="2.8421709430404007E-14" y="13.0" />
+            </edge>
+            <edge source="com.soa.login.config" target="com.soa.login.service">
+              <point x="53.33333333333334" y="13.0" />
+              <point x="188.00904761904764" y="268.0" />
+              <point x="184.5" y="268.0" />
+              <point x="27.0" y="-13.0" />
+            </edge>
+            <edge source="com.soa.login.config" target="com.soa.login.config">
+              <point x="-32.0" y="13.0" />
+              <point x="102.67571428571429" y="228.0" />
+              <point x="40.67571428571429" y="228.0" />
+              <point x="40.67571428571429" y="185.0" />
+              <point x="-64.0" y="-0.0" />
+            </edge>
+            <edge source="com.soa.login.service" target="com.soa.login.repository.UserRepository">
+              <point x="54.0" y="-13.0" />
+              <point x="211.5" y="258.0" />
+              <point x="373.11642857142857" y="258.0" />
+              <point x="-54.0" y="13.0" />
+            </edge>
+            <edge source="com.soa.login.controller.LoginController" target="com.soa.login.repository.UserRepository">
+              <point x="37.75" y="-13.0" />
+              <point x="356.88404761904764" y="354.0" />
+              <point x="446.6340476190476" y="354.0" />
+              <point x="446.6340476190476" y="268.0" />
+              <point x="445.11642857142857" y="268.0" />
+              <point x="18.0" y="13.0" />
+            </edge>
+            <edge source="com.soa.login.config" target="com.soa.login.dto.UserDto">
+              <point x="-48.0" y="-13.0" />
+              <point x="86.67571428571429" y="152.0" />
+              <point x="60.0" y="152.0" />
+              <point x="60.0" y="66.0" />
+              <point x="241.91095238095238" y="66.0" />
+              <point x="-13.571428571428555" y="13.0" />
+            </edge>
+            <edge source="com.soa.login.config" target="com.soa.login.security">
+              <point x="48.0" y="-13.0" />
+              <point x="182.6757142857143" y="152.0" />
+              <point x="205.67571428571432" y="152.0" />
+              <point x="47.33333333333334" y="13.0" />
+            </edge>
+            <edge source="com.soa.login.service" target="com.soa.login.config">
+              <point x="-27.0" y="-13.0" />
+              <point x="130.5" y="268.0" />
+              <point x="145.34238095238098" y="268.0" />
+              <point x="10.666666666666686" y="13.0" />
+            </edge>
+            <edge source="com.soa.login.controller.LoginController" target="com.soa.login.helpers.constants">
+              <point x="12.583333333333314" y="-13.0" />
+              <point x="331.71738095238095" y="344.0" />
+              <point x="361.6340476190476" y="344.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.1511236938717317" x="256.89600353671347" y="242.9292085702043" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>login</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

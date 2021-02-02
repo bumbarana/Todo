@@ -3,7 +3,7 @@
   <component name="CompilerConfiguration">
     <option name="BUILD_PROCESS_HEAP_SIZE" value="2000" />
     <annotationProcessing>
-      <profile name="Annotation profile for OnlineSchool" enabled="true">
+      <profile name="Annotation profile for TodoApp" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />

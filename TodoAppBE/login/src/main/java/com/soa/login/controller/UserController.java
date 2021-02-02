@@ -19,40 +19,6 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    //    @GetMapping("/{id}")
-//    public ResponseEntity<UserDto> findOneUser(@PathVariable("id") Long id) {
-//        UserDto userDto = clientRepository.getUserById(id);
-//
-//        if (userDto != null) {
-//            log.info("UserEntity found by id.");
-//            return new ResponseEntity<>(userDto, HttpStatus.OK);
-//        }
-//        log.error("UserEntity not found by id.");
-//        return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-//    }
-    @GetMapping("/allClients")
-    public ResponseEntity<List<UserDto>> getAllUsers() {
-        List<UserDto> users = userRepository.findAll();
-        if (!users.isEmpty()) {
-            log.info("All users: " + users.size());
-            return new ResponseEntity<>(users, HttpStatus.OK);
-        } else {
-            log.error("No users found.");
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-        }
-    }
-    @GetMapping("/client/{id}")
-    public ResponseEntity<UserDto> getUser(@PathVariable("id") Long id) {
-        UserDto userDto = userRepository.getUserById(id);
-        log.info("user"+ userDto);
-        if (userDto != null) {
-            log.info("All users: " + userDto);
-            return new ResponseEntity<>(userDto, HttpStatus.OK);
-        } else {
-            log.error("No users found.");
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-        }
-    }
 
 
     @GetMapping("/getUser")
